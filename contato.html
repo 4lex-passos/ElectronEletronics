@@ -8,33 +8,32 @@
   <title>Fale conosco</title>
 </head>
 <body>
-  <div class="container">
-    <header>
+  <header>
 
-      <div class="cabecalho_box">
-        <img class='logo' src="imagens/logo.png" alt="Logo Electron">
-        <div class="search_box">
-          <input type="search" id="search" name="search" placeholder="Oque você esta procurando?">
-          <div class="carrinho" href='index.html'>
-            <img class='sacola'src="imagens/car.png" alt="icone de sacola">
-          </div>
+    <div class="cabecalho_box">
+      <img class='logo' src="imagens/logo.png" alt="Logo Electron">
+      <div class="search_box">
+        <input type="search" id="search" name="search" placeholder="Oque você esta procurando?">
+        <div class="carrinho">
+          <img class='sacola' src="imagens/car.png" alt="icone de sacola">
         </div>
       </div>
+    </div>
 
-      <nav class="menu_box">
-        <ul class="categorias">
-          <a class="menu_option" href="index.html">DESTAQUES</a>
-          <a class="menu_option" href="mobile.html">COMPUTADORES</li>
-          <a class="menu_option" href="mobile.html">SMARTPHONES</a>
-          <a class="menu_option" href="mobile.html">TABLETS</a>
-          <a class="menu_option" href="mobile.html">JOGOS</a>
-          <a class="menu_option" href="mobile.html">PERIFERICOS</a>
-        </ul>
-      </nav>
+    <nav class="menu_box">
+      <ul class="categorias">
+        <li><a class="menu_option_active" href="index.html">DESTAQUES</a></li>
+        <li><a class="menu_option" href="mobile.html">COMPUTADORES</a></li>
+        <li><a class="menu_option" href="mobile.html">SMARTPHONES</a></li>
+        <li><a class="menu_option" href="mobile.html">TABLETS</a></li>
+        <li><a class="menu_option" href="mobile.html">JOGOS</a></li>
+        <li><a class="menu_option" href="mobile.html">PERIFERICOS</a></li>
+      </ul>
+    </nav>
 
-    </header>
+  </header>
 
-    <!--AREÀ DO CONTEUDO QUE VOCÊ IRA FAZER------------------------------->
+    <!--AREÀ DO CONTEUDO QUE VOCÊ IRA FAZER-->
     <main>
 
       <div class="produto_page">
@@ -65,7 +64,7 @@
               </div>
 
               <label for="tipoAssunto">TIPO DE ASSUNTO:</label><br>
-              <select id="tipoAssunto" name="tipoAssunto"><br>
+              <select id="tipoAssunto" name="tipoAssunto">
                 <option value="defeito">PRODUTO COM DEFEITO</option>
                 <option value="devolução">DEVOLUÇÃO</option>
                 <option value="reclamacoes">RECLAMAÇÕES</option>
@@ -80,7 +79,7 @@
 
           <div class="atendimento_box">
             <strong>ATENDIMENTO</strong> <br> <br>
-            <strong> HORÁRIO DE ATENDIMENTO: </strong> 08:00 ÀS 20:00 DE SEGUNDA À SEXTA-FEIRA E AOS SÁBADOS DAS 08:00 ÀS 14:00, HORÁRIO DE BRASÍLIA (EXCETO FERIADOS).</h3> <br> <br>
+            <strong> HORÁRIO DE ATENDIMENTO: </strong>08:00 ÀS 20:00 DE SEGUNDA À SEXTA-FEIRA E AOS SÁBADOS DAS 08:00 ÀS 14:00, HORÁRIO DE BRASÍLIA (EXCETO FERIADOS).<br> <br>
             <strong>ENDEREÇO: </strong>RUA CARLOS GOMES, 1321 - 9º ANDAR, CENTRO - MANAUS(AM) <br><br>
             <strong>CEP: </strong>  13480-010 <br><br>
             <strong>CENTRAL SAC: </strong>  (19) 2114-4444 <br><br>
@@ -127,7 +126,7 @@
       </div>  
 
     </main>
-    <!-------------------------------------------------------------------->
+    <!--===================================================================-->
      
     <footer class="rodape_box">
       <div  class="rodape">
@@ -173,6 +172,5 @@
       </div>
       <p class="copy">© BY ELECTRON</p>
     </footer>
-  </div>
 </body>
 </html>
