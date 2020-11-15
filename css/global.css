@@ -35,6 +35,9 @@ a:hover{
   text-decoration: none;
 }
 
+li{
+z-index: 100;
+}
 .produto_page{
   border-top: 1px solid rgb(202, 202, 202);
   background-color: #ffffff;
