@@ -330,6 +330,7 @@ z-index: 100;
 .rodape{
   display: flex;
   justify-content: space-between;
+  flex-flow: wrap;
 }
 
 .box_infor{
@@ -408,5 +409,45 @@ img.mercado_pago{
     color: #4822a2;
     border: 2px solid #4822a2;
   }
+
+  .rodape{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+  }
+
+  .box_infor{
+    margin-top: 30px;
+    text-align: center;
+    margin: 35px 0 0 0;
+  }
   
+  .box_info{
+    text-align: center;
+    margin: 0;
+  }
+
+  .vitrine_box_full{
+    width: 100%;
+  }
+
+  .vitrine_box{
+    width: 100%;
+  }
+
+  .vitrine_box_frete, .vitrine_box_promo, .vitrine_box_normal, .vitrine_box_destaque{
+    width: 100%;
+  }
+
+  .vitrine_image{
+    width: 100%;
+  }
+
+  .vitrine h2{
+    font-size: 45px;
+  }
+
+  .promo_selo_frete, .promo_selo_promo{
+    margin: -20px 0 0 300px;
+  }
 }
