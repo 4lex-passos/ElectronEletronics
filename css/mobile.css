@@ -45,17 +45,11 @@ font-family: 'Poppins', sans-serif;
   border-radius: 5px 5px 0 0;
 }
 
-
-
-@media (max-width: 1680px) {
-
-  .produtos_container{
-    display: flex;
-    justify-content: left;
-  }
-  
+@media (max-width: 520px) {
   .vitrine_box_destaque{
-    width: 300px;
+    width: 100%;
   }
-
+  .promo_selo_destaque{
+    margin: -20px 0 0 320px;
+  }
 }
